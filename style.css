@@ -1,5 +1,3 @@
-
-
 * {
   list-style: none;
   margin: 0;
@@ -23,7 +21,7 @@
 h1 {
   font-family: 'Lato', sans-serif;
   margin: 0;
-  font-size: 31px;
+  font-size: 37px;
   color: #ec5242;
   margin-left: 3%;
 }
@@ -89,9 +87,7 @@ h4 {
   text-align: unset;
 }
 
-.line-small,
-.line-smallest,
-.speakerLine {
+.line-small {
   height: 1px;
   width: 34px;
   background-color: #ec5242;
@@ -143,3 +139,62 @@ h4 {
   cursor: pointer;
 }
 
+.chess-speaker1 {
+  width: 40%;
+  height: 40%;
+}
+
+.speaker-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px;
+}
+
+.text-speaker h3 {
+  color: black;
+  margin-left: 0;
+}
+
+.text-speaker p {
+  background-color: none;
+  background: 0;
+  border: 0;
+  text-align: unset;
+  height: 0;
+  margin-top: 10px;
+}
+
+.second-p {
+  margin-top: 55px;
+  color: black;
+}
+
+.text-speaker {
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  color: #ec5242;
+}
+
+.speaker-main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.speakerLine {
+  height: 1px;
+  width: 34px;
+  background-color: #ec5242;
+  margin-bottom: 40px;
+  margin-left: 46%;
+  margin-top: 5%;
+}
+
+.speakers-title {
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  margin-top: 45px;
+}

@@ -1,5 +1,5 @@
 const speakers = [{
-  photo: 'images/speaker1.jpg',
+  photo: 'images/portrait1.png',
   name: 'Magnus Carlsen',
   job: 'Norwegian chess grandmaster',
   line: 'url',
@@ -35,3 +35,20 @@ const speakers = [{
   line: 'url',
   description: 'Alireza Firouzja is an Iranian-French chess grandmaster. Firouzja is the youngest ever 2800-rated player.'
 }];
+
+const speakerMain = document.querySelector('.speaker-main');
+speakers.forEach((speaker, index) => {
+  const list = document.createElement('li');
+  list.classList.add('speaker-content')
+  const text = `<img class="chess-speaker1" src="${speaker.photo}">
+  <div class="text-speaker">
+    <h3>${speaker.name}</h3>
+    <p>${speaker.job}</p>
+    <div class="second-p">
+      <p>${speaker.description}</p>
+    </div>
+  </div>`;
+
+  list.innerHTML = text
+  speakerMain.appendChild(list);
+});
