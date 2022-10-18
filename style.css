@@ -24,7 +24,7 @@ h1 {
   font-family: 'Lato', sans-serif;
   margin: 0;
   font-size: 31px;
-  color: darkorange;
+  color: #ec5242;
   margin-left: 3%;
 }
 
@@ -32,7 +32,7 @@ h3 {
   font-family: 'Lato', sans-serif;
   margin-bottom: 0;
   margin-top: 5%;
-  color: darkorange;
+  color: #ec5242;
   margin-left: 3%;
 }
 
@@ -65,64 +65,81 @@ h4 {
   margin-bottom: 20%;
 }
 
-.program {
-  background-color: rgb(43, 41, 41);
-  background-image: url(images/patter-bg.png);
-  background-size: 8%;
-  padding-bottom: 50px;
+#program {
+  background-image: url('images/patter-bg.png');
+  color: white;
+  padding: 3%;
+  display: grid;
+  grid-auto-columns: 1fr;
+  justify-items: center;
 }
 
-.program h1 {
+.program-title {
+  color: white;
   text-align: center;
-  color: white;
-  padding-top: 25px;
-    font-size: 25px;
+  padding-top: 24px;
+  padding-bottom: 20px;
 }
 
-.icon {
-  font-family: 'Lato', sans-serif;
-  color: darkorange;
-  display: flex;
-  align-items: center;
-  gap: 25px;
-  font-weight: 900;
-  background-color: rgba(255,255,255,0.2);
-  padding: 10px;
-}
-
-.program ul {
-  display: flex;
-    flex-direction: column;
-    gap: 25px;
-    padding: 24px;
-}
-
-.icontext {
-  color: white;
-  font-weight: 100;
-  font-size: 10px;
-}
-
-.texticon {
-  width: 60%;
-}
-
-.but1 {
-  font-family: 'Lato', sans-serif;
-  display: flex;
-  color: white;
-  width: 80%;
-  margin-top: 35px;
-  margin-left: 10%;
-  height: 70px;
-  background-color: darkorange;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
+#program p {
+  background-color: none;
+  background: 0;
   border: 0;
-  font-size: 23px;
+  height: 0;
+  text-align: unset;
 }
 
-.portrait1 {
-  width: 40%;
+.line-small,
+.line-smallest,
+.speakerLine {
+  height: 1px;
+  width: 34px;
+  background-color: #ec5242;
+  margin-bottom: 20px;
 }
+
+.program-box {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.lecture {
+  display: grid;
+  grid-template-columns: 40% 54%;
+  justify-content: space-between;
+  background-color: rgba(136, 136, 136, 0.3);
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.program-left-text {
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  color: #ec5242;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  align-items: center;
+}
+
+.icons {
+  width: 40px;
+  margin-right: 8px;
+}
+
+.program-button {
+  font-family: 'Lato', sans-serif;
+  background-color: #ec5242;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+  height: 80px;
+  margin-bottom: 35px;
+  padding: 30px 30px;
+  text-align: center;
+  margin-top: 35px;
+  cursor: pointer;
+}
+
