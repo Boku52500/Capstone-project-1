@@ -132,8 +132,16 @@ h4 {
   padding-bottom: 20px;
 }
 
-#program p {
+.text-speaker p {
   background-color: none;
+  background: 0;
+  border: 0;
+  text-align: unset;
+  height: 0;
+  margin-top: 10px;
+}
+
+#program p {
   background: 0;
   border: 0;
   height: 0;
@@ -206,15 +214,6 @@ h4 {
 .text-speaker h3 {
   color: black;
   margin-left: 0;
-}
-
-.text-speaker p {
-  background-color: none;
-  background: 0;
-  border: 0;
-  text-align: unset;
-  height: 0;
-  margin-top: 10px;
 }
 
 .second-p {
