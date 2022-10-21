@@ -9,6 +9,10 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+.top-header {
+  display: none;
+}
+
 .desktop-nav {
   display: none;
 }
@@ -263,7 +267,6 @@ h4 {
   background-position-y: 17%;
   background-origin: content-box;
   background-color: #f7f7f7;
-  margin-top: 5%;
   background-image: url(images/about-bg.png);
 }
 
@@ -433,6 +436,35 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
+  .top-header {
+    background-color: #272a31;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .top-header-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 24px;
+    padding-inline: 10%;
+  }
+
+  .top-header-item {
+    font-family: "Lato", sans-serif;
+    color: #f7f7f8;
+    background-color: transparent;
+    border: 0;
+    padding-block: 5px;
+    font-size: 14px;
+    align-self: center;
+    cursor: pointer;
+  }
+
   .desktop-nav {
     display: flex;
     justify-content: space-evenly;
@@ -642,6 +674,30 @@ footer {
   footer img {
     width: 20%;
     margin-left: 50%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .chess-speaker1 {
+    width: 30%;
+    height: auto;
+  }
+
+  .second-p {
+    margin-top: 33px;
+    color: black;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .chess-speaker1 {
+    width: 20%;
+    height: auto;
+  }
+
+  .second-p {
+    margin-top: 20px;
+    color: black;
   }
 }
 
