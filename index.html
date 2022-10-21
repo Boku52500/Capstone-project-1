@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Capstone Project</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <div class="top-header sm-none">
+      <ul class="top-header-list">
+        <li class="top-header-link"><button class="top-header-item" type="button">English</button></li>
+        <li class="top-header-link"><button class="top-header-item" type="button">My Page</button></li>
+        <li class="top-header-link"><button class="top-header-item" type="button">Logout</button></li>
+      </ul>
+    </div>
+    <nav>
+      <div class="desktop-nav">
+        <a href="index.html"><img class="home-logo" src="images\chess-logo.png" alt="main logo" /></a>
+        <div class="links">
+          <a id="home-link" href="about.html">About</a>
+          <a href="#program">Program</a>
+          <a href="#">Join</a>
+          <a href="#sponsors">Sponsor</a>
+          <a href="#">News</a>
+        </div>
+        <div class="campaign-container">
+          <button class="campaign-button">Chess Summit</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="blend display-none" id="menuBackground"></div>
+  <div class="menu-dropdown display-none" id="menuContent">
+    <button class="closeButton display-none">&#10799;</button>
+    <ul>
+      <li><a class="dropdowns display-none" href="about.html">About</a></li>
+      <li><a class="dropdowns display-none" href="#program">Program</a></li>
+      <li><a class="dropdowns display-none" href="#sponsors">Sponsor</a></li>
+    </ul>
+  </div>
+
+
+  <section class="home-page">
+    <img class="hamburger" id="hamb-button" src="images/hamburger.png" alt="">
+    <h3>"Hello! Chess players worldwide"</h3>
+    <h1>GLOBAL SUMMIT OF CHESS 2022</h1>
+    <p>Dear chess lovers and players, we invite you to the international event to celebrate our accomplishments in this
+      industry. People from over 150+ countries will be attending this event. We look forward to seeing you there.</p>
+    <h2>2022.10.19(FRI) - 25(THU)</h2>
+    <h4>@ National chess museum of Georgia.</h4>
+  </section>
+
+  <section id="program">
+    <h3 class="program-title">Main Program</h3>
+    <div class="line-small"></div>
+    <div class="program-box">
+      <div class="lecture">
+        <div class="program-left-text">
+          <img class="icons" src="images/program_icon_01.png" alt="board image" />
+          Lecture
+        </div>
+        <div>
+          <p>
+            Listen to speakers from various countries about the latest
+            advances in chess.
+          </p>
+        </div>
+      </div>
+      <div class="lecture">
+        <div class="program-left-text">
+          <img class="icons" src="images\program_icon_02.png" alt="eye icon" />
+          Exhibit
+        </div>
+        <div>
+          <p>
+            Take a look at some historical chess artifacts and pictures.
+          </p>
+        </div>
+      </div>
+      <div class="lecture">
+        <div class="program-left-text">
+          <img class="icons" src="images\program_icon_03.png" alt="message icon" />
+          Forum
+        </div>
+        <div>
+          <p>
+            Have time to share your thoughts and opinions with experts
+            for each topic.
+          </p>
+        </div>
+      </div>
+      <div class="lecture">
+        <div class="program-left-text">
+          <img class="icons" src="images\program_icon_04.png" alt="eye icon" />Playing
+        </div>
+        <div>
+          <p>
+            Get a chance to play with one of the best in the world, Garry Kasparov.
+          </p>
+        </div>
+      </div>
+      <div class="lecture">
+        <div class="program-left-text">
+          <img class="icons" src="images\program_icon_05.png" alt="people icon" />
+          Network
+        </div>
+        <div>
+          <p>
+            Get opportunities to network with world-class champions globally.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="program-button">Join Chess Global Summit 2022</div>
+  </section>
+
+
+  <section class="speakers">
+    <h3 class="speakers-title">Featured Speakers</h3>
+
+    <ul class="speaker-main">
+    </ul>
+  </section>
+  <script src="script.js"></script>
+  <script src="menu.js"></script>
+
+
+  <section id="sponsors">
+    <div class="sponsors">
+      <h1>Partner</h1>
+      <div class="line-small"></div>
+      <div class="sponsor-names">
+        <img src="images\sponsor1.png" alt="">
+        <img src="images\sponsor2.png" alt="">
+        <img src="images\sponsor3.png" alt="">
+        <img src="images\sponsor4.png" alt="">
+        <img src="images\sponsor5.png" alt="">
+      </div>
+    </div>
+
+    <footer class="about-foot">
+      <div class="chess-footer-img">
+        <img src="images\chess-logo.png" alt="" />
+      </div>
+      <div class="footer-text">
+        2022 Chess Global Summit. Some Rights Reserved.
+      </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,706 @@
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.top-header {
+  display: none;
+}
+
+.desktop-nav {
+  display: none;
+}
+
+.menu-dropdown {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.blend {
+  background: #ec5242;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(5px);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  height: 100vh;
+  width: 100%;
+}
+
+.closeButton {
+  align-self: flex-end;
+  background: none;
+  border: 0;
+  color: white;
+  font-size: 24px;
+  padding: 24px 36px 24px 24px;
+}
+
+.menu-dropdown ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 28px;
+  gap: 40px;
+}
+
+.isolate {
+  isolation: isolate;
+  z-index: 3;
+}
+
+.menu-dropdown li a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.hamburger {
+  width: 8%;
+  margin-top: 3%;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  background-image: url(images/main-bg.png);
+  background-size: 100%;
+  padding: 20px 5%;
+}
+
+h1 {
+  margin: 0;
+  font-size: 37px;
+  color: #ec5242;
+}
+
+h3 {
+  margin-bottom: 0;
+  margin-top: 5%;
+  color: #ec5242;
+}
+
+p {
+  display: flex;
+  margin-bottom: 0;
+  border: 2px solid white;
+  height: 135px;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #f7f7f7;
+}
+
+h2 {
+  margin-bottom: 0;
+  font-size: 26px;
+  font-weight: 100;
+  margin-top: 15px;
+}
+
+h4 {
+  margin-top: 6px;
+  font-weight: 100;
+  margin-bottom: 8%;
+}
+
+#program {
+  background-image: url('images/patter-bg.png');
+  color: white;
+  padding: 3%;
+  display: grid;
+  grid-auto-columns: 1fr;
+  justify-items: center;
+}
+
+.program-title {
+  color: white;
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 20px;
+}
+
+.text-speaker p {
+  background: 0;
+  border: 0;
+  text-align: unset;
+  height: 0;
+  margin-top: 10px;
+}
+
+.about p {
+  border: 1px solid;
+  background-color: white;
+  margin-top: 30px;
+}
+
+#program p {
+  background: 0;
+  border: 0;
+  height: 0;
+  text-align: unset;
+}
+
+.line-small {
+  height: 1px;
+  width: 34px;
+  background-color: #ec5242;
+  margin-bottom: 20px;
+}
+
+.program-box {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.lecture {
+  display: grid;
+  grid-template-columns: 40% 54%;
+  justify-content: space-between;
+  background-color: rgba(136, 136, 136, 0.3);
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.program-left-text {
+  display: flex;
+  color: #ec5242;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  align-items: center;
+}
+
+.icons {
+  width: 40px;
+  margin-right: 8px;
+}
+
+.program-button {
+  background-color: #ec5242;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+  height: 80px;
+  margin-bottom: 35px;
+  padding: 30px 30px;
+  text-align: center;
+  margin-top: 35px;
+  cursor: pointer;
+}
+
+.chess-speaker1 {
+  width: 40%;
+  height: 40%;
+}
+
+.speaker-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px;
+}
+
+.text-speaker h3 {
+  color: black;
+  margin-left: 0;
+}
+
+.second-p {
+  margin-top: 55px;
+  color: black;
+}
+
+.text-speaker {
+  font-size: 13px;
+  color: #ec5242;
+}
+
+.speaker-main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.speakerLine {
+  height: 1px;
+  width: 34px;
+  background-color: #ec5242;
+  margin-bottom: 40px;
+  margin-left: 46%;
+  margin-top: 5%;
+}
+
+.speakers-title {
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  margin-top: 45px;
+  margin-bottom: 30px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-repeat: no-repeat;
+  padding: 20px 5%;
+  background-position-y: 17%;
+  background-origin: content-box;
+  background-color: #f7f7f7;
+  background-image: url(images/about-bg.png);
+}
+
+.about h3 {
+  text-align: center;
+  padding-top: 15%;
+}
+
+.about h1 {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.text-mail {
+  text-align: center;
+  margin-top: 8%;
+}
+
+.about-mail {
+  font-weight: 900;
+  margin-top: 2%;
+  text-decoration: underline;
+  padding-bottom: 30px;
+}
+
+.about-2 {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 5%;
+}
+
+.logo-box {
+  display: flex;
+  background-color: #fff;
+  border: 1px solid rgb(218, 218, 218);
+  padding: 20px;
+  justify-content: center;
+}
+
+.chess-logo {
+  width: 50%;
+}
+
+.about-2 h1 {
+  font-size: 25px;
+  color: black;
+}
+
+.about-2 .line-small {
+  margin-left: 45%;
+  margin-top: 5%;
+}
+
+.about-2 h4 {
+  margin-bottom: 40px;
+  font-size: 15px;
+}
+
+hr {
+  margin-top: 40px;
+  height: 2px;
+  background-color: lightgray;
+  border: none;
+  margin-inline: -19px;
+}
+
+.about-3 {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 5%;
+}
+
+.about-3 h1 {
+  font-size: 25px;
+  color: black;
+}
+
+.about-3 .line-small {
+  margin-left: 45%;
+  margin-top: 5%;
+}
+
+.about-3 h4 {
+  margin-bottom: 40px;
+  font-size: 15px;
+}
+
+.picture-1 {
+  background-image: url(images/conference-1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+.conf-cont1 .conf-text1 {
+  padding-bottom: 10px;
+  font-size: 50px;
+  padding-top: 15%;
+  color: #fff;
+}
+
+.conf-cont1 .conf-text2 {
+  color: #fff;
+  font-size: 19px;
+  padding-bottom: 15%;
+}
+
+.picture-2 {
+  background-image: url(images/conference-2.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+.sponsors {
+  background-color: #3b3e47;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sponsors h1 {
+  padding-top: 30px;
+  color: #fff;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+
+.sponsor-names {
+  justify-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 11px;
+  justify-content: space-evenly;
+  align-items: baseline;
+  margin-bottom: 50px;
+}
+
+footer img {
+  width: 35%;
+  margin-left: 40%;
+}
+
+.sponsor-names img {
+  width: 120px;
+  padding-bottom: 10px;
+}
+
+footer {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #3b3e47;
+}
+
+.footer-text {
+  width: 100vh;
+}
+
+@media only screen and (min-width: 768px) {
+  .top-header {
+    background-color: #272a31;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .top-header-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 24px;
+    padding-inline: 10%;
+  }
+
+  .top-header-item {
+    font-family: "Lato", sans-serif;
+    color: #f7f7f8;
+    background-color: transparent;
+    border: 0;
+    padding-block: 5px;
+    font-size: 14px;
+    align-self: center;
+    cursor: pointer;
+  }
+
+  .desktop-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .blend {
+    display: none;
+  }
+
+  .menu-dropdown {
+    display: none;
+  }
+
+  .home-logo {
+    width: 10%;
+  }
+
+  .desktop-nav a {
+    text-decoration: none;
+    color: #3b3e47;
+    font-weight: 600;
+    padding-left: 40px;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+  }
+
+  .campaign-button {
+    border: 4px solid #ec5242;
+    color: #ec5242;
+    padding: 10px;
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  #home-link {
+    color: #ec5242;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .home-page {
+    padding: 8% 15%;
+    background-position-y: -97px;
+    background-image: url(images/desktop-home.png);
+  }
+
+  .home-page h3 {
+    font-size: 38px;
+  }
+
+  .home-page h1 {
+    font-size: 56px;
+    max-width: 80%;
+  }
+
+  .home-page p {
+    font-size: 15px;
+    color: #3b3e47;
+    font-weight: 600;
+    height: 80px;
+  }
+
+  .home-page h2 {
+    font-size: 35px;
+  }
+
+  .home-page h4 {
+    font-size: 20px;
+  }
+
+  .program {
+    flex-direction: row;
+    gap: 3px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .program-box {
+    flex-direction: row;
+    gap: 3px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .lecture {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 213px;
+    padding-bottom: 75px;
+    padding-top: 36px;
+    gap: 20px;
+    line-height: 22px;
+    cursor: pointer;
+  }
+
+  .program-title {
+    margin-top: 30px;
+  }
+
+  .speakers-title {
+    margin-bottom: 35px;
+    justify-content: center;
+  }
+
+  .speaker-main {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .speakers {
+    display: flex;
+    background-color: #f7f7f7;
+    flex-direction: column;
+  }
+
+  .chess-speaker1 {
+    width: 50%;
+    height: auto;
+  }
+
+  .speaker-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+    width: 45%;
+  }
+
+  .text-speaker {
+    display: flex;
+    font-size: 13px;
+    color: #ec5242;
+    gap: 10px;
+    width: 56%;
+    flex-direction: column;
+  }
+
+  .about {
+    align-items: center;
+  }
+
+  .about h1 {
+    margin-top: 90px;
+    font-size: 44px;
+    max-width: 50%;
+    line-height: normal;
+    align-self: center;
+  }
+
+  .about p {
+    max-width: 63%;
+    padding: 25px 47px;
+    margin-bottom: 40px;
+  }
+
+  .text-mail {
+    margin-top: 0;
+  }
+
+  .logo-box {
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  .about-2 .line-small {
+    margin-left: 48%;
+    margin-top: 2%;
+  }
+
+  .about-3 .line-small {
+    margin-left: 48%;
+    margin-top: 2%;
+  }
+
+  .desktop-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    flex-direction: row;
+  }
+
+  .conf-cont1 .conf-text1 {
+    font-size: 30px;
+  }
+
+  .conf-text2 {
+    font-size: 15px;
+  }
+
+  footer img {
+    width: 20%;
+    margin-left: 50%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .chess-speaker1 {
+    width: 30%;
+    height: auto;
+  }
+
+  .second-p {
+    margin-top: 33px;
+    color: black;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .chess-speaker1 {
+    width: 20%;
+    height: auto;
+  }
+
+  .second-p {
+    margin-top: 20px;
+    color: black;
+  }
+}
+
+.display-none {
+  display: none;
+}
