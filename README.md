@@ -16,6 +16,8 @@
 
 You can check out the live version of my project with this [link.](https://boku52500.github.io/Capstone-project-1/)
 
+You can check out the video explanation of how this project was created wit this [link.](https://www.veed.io/view/097cd8d8-5173-4e1f-931a-11081597ab13?sharingWidget=true)
+
 ## Getting Started
 
 - Open up GitHub.
