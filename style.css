@@ -133,12 +133,17 @@ h4 {
 }
 
 .text-speaker p {
-  background-color: none;
   background: 0;
   border: 0;
   text-align: unset;
   height: 0;
   margin-top: 10px;
+}
+
+.about p {
+  border: 1px solid;
+  background-color: white;
+  margin-top: 30px;
 }
 
 #program p {
@@ -271,12 +276,6 @@ h4 {
   margin-top: 10%;
 }
 
-.about p {
-  border: 1px solid;
-  background-color: white;
-  margin-top: 30px;
-}
-
 .text-mail {
   text-align: center;
   margin-top: 8%;
@@ -406,6 +405,11 @@ hr {
   margin-bottom: 50px;
 }
 
+footer img {
+  width: 35%;
+  margin-left: 40%;
+}
+
 .sponsor-names img {
   width: 120px;
   padding-bottom: 10px;
@@ -421,11 +425,6 @@ footer {
   font-size: 15px;
   font-weight: 400;
   color: #3b3e47;
-}
-
-footer img {
-  width: 35%;
-  margin-left: 40%;
 }
 
 .footer-text {
@@ -634,7 +633,6 @@ footer img {
   .conf-cont1 .conf-text1 {
     font-size: 30px;
   }
-
 
   .conf-text2 {
     font-size: 15px;
