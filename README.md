@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio project.
+# Capstone project.
 
 > This is the capstone project for Microverse. In this project, I built a virtual conference page of chess using HTML, CSS, javaScript.
 
