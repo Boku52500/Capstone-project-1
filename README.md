@@ -12,7 +12,7 @@
 - CSS Grid
 - JavaScript
 
-## Live Demo (if available)
+## Live Demo
 
 You can check out the live version of my project with this [link.](https://boku52500.github.io/Capstone-project-1/)
 
